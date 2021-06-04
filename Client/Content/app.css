@@ -369,3 +369,17 @@ body{
 .section-services .single-service:hover a:after {
 	background-color: #fff;
 }
+.myResume{
+  height: 40px;
+	width: 150px;
+	font-size: 1.5rem;
+  margin-top: 1.5rem;
+	background-color: gray;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0px 0px 4px 4px rgb(66, 66, 66);
+}
+.myResume:hover{
+  background-color:#383131;
+  color:white; 
+}

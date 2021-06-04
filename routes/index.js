@@ -7,21 +7,21 @@ const express_1 = __importDefault(require("express"));
 const router = express_1.default.Router();
 exports.default = router;
 router.get('/', function (req, res, next) {
-    res.render('index', { title: 'Home' });
+    res.render('index', { title: 'Home', page: 'home' });
 });
 router.get('/home', function (req, res, next) {
-    res.render('index', { title: 'Home' });
+    res.render('index', { title: 'Home', page: 'home' });
 });
 router.get('/about', function (req, res, next) {
-    res.render('about', { title: 'About Us YAsh' });
+    res.render('index', { title: 'About Me', page: 'about' });
 });
 router.get('/projects', function (req, res, next) {
-    res.render('projects', { title: 'Projects' });
+    res.render('index', { title: 'Our Projects', page: 'projects' });
 });
 router.get('/services', function (req, res, next) {
-    res.render('services', { title: 'Services' });
+    res.render('index', { title: 'Services', page: 'services' });
 });
 router.get('/contact', function (req, res, next) {
-    res.render('contact', { title: 'Contact' });
+    res.render('index', { title: 'Contact', page: 'contact' });
 });
 //# sourceMappingURL=index.js.map
