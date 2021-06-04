@@ -61,7 +61,6 @@ body{
   .card:hover > .back{
     transform: perspective(600px) rotateY(0deg);
   }
- 
   /* contact page */
   
 /* background image  */
@@ -184,7 +183,7 @@ body{
  
   /* media queries */
     @media (max-width: 968px){
- 
+  
       #fancy-form .form-sections{
         display: block;
         width: 100%;
