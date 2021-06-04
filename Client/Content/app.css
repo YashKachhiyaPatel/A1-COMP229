@@ -61,7 +61,7 @@ body{
   .card:hover > .back{
     transform: perspective(600px) rotateY(0deg);
   }
-  
+ 
   /* contact page */
   
 /* background image  */
