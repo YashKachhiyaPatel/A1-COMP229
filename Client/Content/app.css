@@ -3,6 +3,10 @@
 body{
     background: #333;
   }
+nav div div ul li.active{
+  color: white;
+  background: rgb(14, 13, 13);
+}
   .middle{
     position: absolute;
     top: 50%;
@@ -76,14 +80,14 @@ body{
  
  /* container utility */
  #fancy-form .container{
-   width: 80%;
+   width: 75%;
    margin: auto;
    overflow: hidden;
  }
  
  /* main div */
  .form-sections{
-   margin-top: 0.3rem;
+   margin-top: 1rem;
    display: grid;
    grid-gap: 5rem;
    grid-template-columns: repeat(2, 1fr);
@@ -114,7 +118,11 @@ body{
  }
  
  /* socail media icons */
- .fa {
+ .contact-icon{
+   margin-top: -10px;
+   margin-bottom: 80px;
+ }
+ .fab {
    padding: 8px;
    font-size: 18px;
    width: 50px;
@@ -123,7 +131,7 @@ body{
    /* margin: 5px 2px; */
    color: rgb(187, 182, 182);
  }
- .fa:hover{
+ .fab:hover{
    color: rgb(16, 135, 190);;
  }
  
@@ -333,7 +341,7 @@ body{
 
 .section-services .single-service .description {
     margin-bottom: 20px;
-    font-size: 14px;
+    font-size: 16px;
     transition: color .3s;
 }
 

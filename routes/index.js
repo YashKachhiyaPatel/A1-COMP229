@@ -13,10 +13,10 @@ router.get('/home', function (req, res, next) {
     res.render('index', { title: 'Home', page: 'home' });
 });
 router.get('/about', function (req, res, next) {
-    res.render('index', { title: 'About Me', page: 'about' });
+    res.render('index', { title: 'About', page: 'about' });
 });
 router.get('/projects', function (req, res, next) {
-    res.render('index', { title: 'Our Projects', page: 'projects' });
+    res.render('index', { title: 'Projects', page: 'projects' });
 });
 router.get('/services', function (req, res, next) {
     res.render('index', { title: 'Services', page: 'services' });
