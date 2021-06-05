@@ -3,10 +3,7 @@
 body{
     background: #333;
   }
-nav div div ul li.active{
-  color: white;
-  background: rgb(14, 13, 13);
-}
+
   .middle{
     position: absolute;
     top: 50%;
