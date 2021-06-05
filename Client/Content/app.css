@@ -170,20 +170,23 @@ body{
   }
  
   form button{
-     width: 9rem;
+     width: 10rem;
      background: rgb(12, 168, 207);
      padding: 5px;
      outline: none;
      border-color: transparent;
      color: #fff;
-     font-size: 15px;
+     font-size: 22px;
      font-weight: bold;
      letter-spacing: 2px;
      text-align: center;
      margin-top: 0.9rem;
-     border-radius: 50px;
+     border-radius: 40px;
      cursor: pointer;
   }
+  form button:hover{
+    background: rgb(5, 84, 104);
+ }
  
  
   /* media queries */
